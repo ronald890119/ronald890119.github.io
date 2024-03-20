@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #4AF626;
+}
+
+a:visited {
+    color: #4AF626;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: #4AF626;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: #4AF626;
+    border-style: none none dashed none;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    font-family: Courier, monospace;
+    font-size: 1.5rem;
+}
+
+.nav-list {
+    text-align: right;
+    align-items: center;
+}
+
+.sub-nav {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.intro {
+    margin-top: 5rem;
+}
+
+p {
+    color: #4AF626;
+    text-align: center;
+    font-family: Courier, monospace;
+    font-size: 1.5rem;
+}
+
+footer {
+    color: #4AF626;
+    font-family: Courier, monospace;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.contact-container {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: #4AF626;
+    border-style: none none dashed none;
+}
+
+#welcome {
+    text-align: left;
+    font-size: 2rem;
+}
+
+img {
+    filter: invert(63%) sepia(87%) saturate(839%) hue-rotate(60deg) brightness(115%) contrast(93%);
+}
+
+.contact-method {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+#contact {
+    text-align: center;
+}
