@@ -47,6 +47,77 @@ li {
     margin-right: 1rem;
 }
 
+div {
+    color: #4AF626;
+    font-family: Courier, monospace;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.intro-container {
+    margin-top: 5rem;
+}
+
+#intro {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-container {
+    margin-top: 2rem;
+}
+
+.project-name {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.project-intro {
+    width: 40%;
+    margin: 1rem auto 2rem auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo-area {
+    display: grid;
+    grid-template-columns: 30% 35% 35%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+figcaption {
+    font-size: 1rem;
+}
+
+.project-photo {
+    filter: none;
+}
+
+.photo-intro {
+    grid-column: 1/ 2;
+    width: 80%;
+    border: dashed #4AF626;
+    padding: 1rem;
+}
+
+#swift {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.button {
+    border: dashed #4AF626;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
 footer {
     color: #4AF626;
     font-family: Courier, monospace;
