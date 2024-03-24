@@ -137,9 +137,6 @@ li {
 }
 
 footer {
-    position: absolute;
-    bottom: 1rem;
-    width: 100%;
     color: #4AF626;
     font-family: Courier, monospace;
     text-align: center;
