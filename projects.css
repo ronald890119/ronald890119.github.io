@@ -112,13 +112,15 @@ figcaption {
     margin-bottom: 1rem;
 }
 
-.button {
+button {
+    background-color: black;
+    color: #4AF626;
+    font-family: Courier, monospace;
+    font-size: 1.5vw;
+    cursor: pointer;
     border: dashed #4AF626;
-    padding: 0.5rem;
-    margin-top: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
+    padding: 1rem;
+    margin-top: 1vh;
 }
 
 footer {
