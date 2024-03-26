@@ -2,6 +2,10 @@ body {
     background-color: black;
 }
 
+img {
+    filter: invert(63%) sepia(87%) saturate(839%) hue-rotate(60deg) brightness(115%) contrast(93%);
+}
+
 a {
     text-decoration: none;
     color: #4AF626;
@@ -91,10 +95,6 @@ footer {
 #welcome {
     text-align: left;
     font-size: 2rem;
-}
-
-img {
-    filter: invert(63%) sepia(87%) saturate(839%) hue-rotate(60deg) brightness(115%) contrast(93%);
 }
 
 .contact-method {
