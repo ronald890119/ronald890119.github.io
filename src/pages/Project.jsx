@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Project = () => {
   return (
@@ -15,10 +16,10 @@ const Project = () => {
             <article class="flex flex-col items-start justify-between">
               <div class="group relative">
                 <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
-                  <a href="/projects/job_applications_tracker">
+                  <Link to="/projects/job_applications_tracker">
                     <span class="absolute inset-0"></span>
                     Job Applications Tracker
-                  </a>
+                  </Link>
                 </h3>
                 <p class="mt-5 line-clamp-5 text-sm/6 text-gray-600 text-justify">
                   A useful tool for job seekers to track their applications,
@@ -32,7 +33,7 @@ const Project = () => {
                   type="button"
                   class="mx-auto text-black hover:text-white border hover:cursor-pointer border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-gray-600 dark:text-black dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
                 >
-                  <a href="/projects/job_applications_tracker">Learn More</a>
+									<Link to="/projects/job_applications_tracker">Learn More</Link>
                 </button>
               </div>
             </article>
@@ -41,10 +42,10 @@ const Project = () => {
             <article class="flex flex-col items-start justify-between">
               <div class="group relative">
                 <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
-                  <a href="/projects/MyGO">
+                  <Link to="/projects/MyGO">
                     <span class="absolute inset-0"></span>
                     MyGO/Ave Mujica Screenshot Searcher
-                  </a>
+                  </Link>
                 </h3>
                 <p class="mt-5 line-clamp-5 text-sm/6 text-gray-600 text-justify">
                   MyGO and Ave Mujica are anime about girl bands. This tool
@@ -58,7 +59,7 @@ const Project = () => {
                   type="button"
                   class="mx-auto text-black hover:text-white border hover:cursor-pointer border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-gray-600 dark:text-black dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
                 >
-                  <a href="/projects/MyGO">Learn More</a>
+									<Link to="/projects/MyGO">Learn More</Link>
                 </button>
               </div>
             </article>
@@ -66,10 +67,10 @@ const Project = () => {
             <article class="flex flex-col items-start justify-between">
               <div class="group relative">
                 <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
-                  <a href="/projects/AstroWeather">
+                  <Link to="/projects/AstroWeather">
                     <span class="absolute inset-0"></span>
                     Astro Weather
-                  </a>
+                  </Link>
                 </h3>
                 <p class="mt-5 line-clamp-5 text-sm/6 text-gray-600 text-justify">
                   A tool that allows users to get weather information before
@@ -82,7 +83,7 @@ const Project = () => {
                   type="button"
                   class="mx-auto text-black hover:text-white border hover:cursor-pointer border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-gray-600 dark:text-black dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
                 >
-                  <a href="/projects/AstroWeather">Learn More</a>
+									<Link to="/projects/AstroWeather">Learn More</Link>
                 </button>
               </div>
             </article>
