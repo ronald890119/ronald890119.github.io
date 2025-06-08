@@ -3,7 +3,7 @@ import React from "react";
 const MyGO_Searcher = () => {
   return (
     <>
-      <h2 class="font-semibold mx-auto pt-30 text-2xl leading-tight text-black md:text-4xl lg:text-5xl lg:pt-40">
+      <h2 class="font-semibold mx-auto pt-30 text-xl leading-tight text-black md:text-4xl lg:text-5xl lg:pt-40">
         MyGO/Ave Mujica Screenshot Searcher
       </h2>
       <p class="font-serif w-xs mx-auto mt-2 text-base leading-relaxed text-center text-gray-600 sm:w-sm md:w-md lg:w-lg">

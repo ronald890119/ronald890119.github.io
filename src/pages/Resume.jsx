@@ -10,7 +10,7 @@ const Resume = () => {
         <div class="max-w-5xl font-serif px-4 my-20 mx-auto sm:px-6 lg:px-8 bg-gray-100 rounded-md p-4">
           <div class="mx-auto gap-y-10 md:gap-x-20">
             <div class="text-center">
-              <h2 class="mt-10 text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
+              <h2 class="mt-10 text-2xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
                 Ronald (Guan-Hsun) Wang
               </h2>
               <p class="mt-4 text-base leading-relaxed text-gray-600">

@@ -3,7 +3,7 @@ import React from "react";
 const Job = () => {
   return (
     <>
-      <h2 class="font-semibold mx-auto pt-30 text-4xl leading-tight text-black md:text-5xl lg:text-6xl lg:pt-40">
+      <h2 class="font-semibold mx-auto pt-30 text-3xl leading-tight text-black md:text-5xl lg:text-6xl lg:pt-40">
         Job Applications Tracker
       </h2>
       <p class="font-serif w-xs mx-auto mt-2 text-base leading-relaxed text-center text-gray-600 sm:w-sm md:w-md lg:w-lg">
