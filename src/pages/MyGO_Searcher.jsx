@@ -10,13 +10,42 @@ const MyGO_Searcher = () => {
       <p class="font-serif w-xs mx-auto mt-2 text-base leading-relaxed text-center text-gray-600 sm:w-sm md:w-md lg:w-lg">
         ようこそ。Ave Mujicaの世界へ
       </p>
-      <div class="flex justify-center mt-10">
+      <div class="flex flex-col mx-auto mt-10 items-center">
         <a href="https://mygo-ave-mujica.ronald890119.com/" target="_blank">
           <button
             type="button"
-            class="text-white hover:cursor-pointer font-medium rounded-full text-sm px-5 py-2.5 text-center bg-(--color-tomori)"
+            class="text-white w-70 hover:cursor-pointer font-medium rounded-full text-sm px-5 py-2.5 text-center bg-(--color-tomori)"
           >
             Enter the World of Ave Mujica
+            <svg
+              class="w-6 h-6 ml-3 inline-block"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M5 12V6C5 5.44772 5.44772 5 6 5H18C18.5523 5 19 5.44772 19 6V18C19 18.5523 18.5523 19 18 19H12M8.11111 12H12M12 12V15.8889M12 12L5 19"
+                  stroke="#FFFFFF"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </g>
+            </svg>
+          </button>
+        </a>
+        <a href="https://github.com/ronald890119/mygo-searcher" target="_blank">
+          <button
+            type="button"
+            class="text-white mt-3 w-70 hover:cursor-pointer font-medium rounded-full text-sm px-5 py-2.5 text-center bg-(--color-tomori)"
+          >
+            Go to Github Repository
             <svg
               class="w-6 h-6 ml-3 inline-block"
               viewBox="0 0 24 24"
