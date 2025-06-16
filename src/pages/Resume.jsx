@@ -19,10 +19,7 @@ const Resume = () => {
                 </a>
               </p>
               <p class="mt-4 text-base leading-relaxed text-gray-600">
-                Sydney, NSW
-              </p>
-              <p class="mt-0 text-base leading-relaxed text-gray-600">
-                Tainan, Taiwan
+                Sydney, NSW / Tainan, Taiwan
               </p>
             </div>
 

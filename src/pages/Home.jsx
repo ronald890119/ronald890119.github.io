@@ -14,6 +14,9 @@ const Home = () => {
                   alt=""
                 />
               </div>
+              <div class="mt-15 text-center">
+                  Headshot will be added here in the future
+              </div>
             </div>
 
             <div>
