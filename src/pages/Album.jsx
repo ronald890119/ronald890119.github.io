@@ -1,6 +1,5 @@
-import React from "react";
 import AlbumCard from "../components/AlbumCard";
-import { images } from "/public/album.json"; // Assuming the JSON file is in the assets folder
+import { images } from "../assets/album.json";
 
 const Album = () => {
   return (
@@ -30,7 +29,13 @@ const Album = () => {
           {images.map(
             (image) => (
               console.log(image),
-              (<AlbumCard url={image.url} caption={image.caption} />)
+              (
+                <AlbumCard
+                  url={image.url}
+                  caption={image.caption}
+                  small={image.small}
+                />
+              )
             )
           )}
         </div>

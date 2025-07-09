@@ -1,5 +1,3 @@
-import React from "react";
-
 const About = () => {
   return (
     <>
@@ -9,8 +7,7 @@ const About = () => {
       <p class="font-serif w-xs mx-auto mt-2 text-base leading-relaxed text-center text-gray-600 sm:w-sm md:w-md lg:w-lg">
         Sharing my hobbies and life other than computer science.
       </p>
-      {/* <section class="py-10 pb-0 bg-white sm:py-16 sm:pb-0 lg:py-24 lg:pb-0"> */}
-			<section class="py-0 bg-white">
+      <section class="py-0 bg-white">
         <svg
           class="w-auto h-100 lg:h-100 mx-auto"
           fill="currentColor"

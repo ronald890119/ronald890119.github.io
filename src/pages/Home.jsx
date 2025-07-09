@@ -1,5 +1,3 @@
-import React from "react";
-
 const Home = () => {
   return (
     <>
@@ -15,7 +13,7 @@ const Home = () => {
                 />
               </div>
               <div class="mt-15 text-center">
-                  Headshot will be added here in the future
+                Headshot will be added here in the future
               </div>
             </div>
 
@@ -84,8 +82,8 @@ const Home = () => {
                 Web Development
               </h2>
               <p class="mt-1 text-base leading-relaxed text-justify text-gray-600">
-                Flask, Node.js, Express, React, HTML, CSS, Tailwind CSS, REST API, MVC
-                Architecture
+                Flask, Node.js, Express, React, HTML, CSS, Tailwind CSS, REST
+                API, MVC Architecture
               </p>
               <h2 class="text-1xl font-bold leading-tight mt-5 text-black sm:text-2xl lg:text-3xl">
                 Cybersecurity

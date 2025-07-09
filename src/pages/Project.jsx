@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 const Project = () => {
@@ -33,7 +32,9 @@ const Project = () => {
                   type="button"
                   class="mx-auto text-black hover:text-white border hover:cursor-pointer border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-gray-600 dark:text-black dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
                 >
-									<Link to="/projects/job_applications_tracker">Learn More</Link>
+                  <Link to="/projects/job_applications_tracker">
+                    Learn More
+                  </Link>
                 </button>
               </div>
             </article>
@@ -59,7 +60,7 @@ const Project = () => {
                   type="button"
                   class="mx-auto text-black hover:text-white border hover:cursor-pointer border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-gray-600 dark:text-black dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
                 >
-									<Link to="/projects/MyGO">Learn More</Link>
+                  <Link to="/projects/MyGO">Learn More</Link>
                 </button>
               </div>
             </article>
@@ -83,7 +84,7 @@ const Project = () => {
                   type="button"
                   class="mx-auto text-black hover:text-white border hover:cursor-pointer border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-gray-600 dark:text-black dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
                 >
-									<Link to="/projects/AstroWeather">Learn More</Link>
+                  <Link to="/projects/AstroWeather">Learn More</Link>
                 </button>
               </div>
             </article>

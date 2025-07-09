@@ -1,5 +1,6 @@
-import React from "react";
 import Video from "../components/Video";
+import mygo from "../assets/mygo_bg.jpg";
+import ave_mujica from "../assets/ave_mujica_bg.jpg";
 
 const MyGO_Searcher = () => {
   return (
@@ -71,10 +72,11 @@ const MyGO_Searcher = () => {
         </a>
       </div>
       <div class="mx-auto mt-10 lg:flex">
-        <img className="w-md md:w-lg lg:w-lg" src="mygo_bg.jpg" />
+        <img className="w-md md:w-lg lg:w-lg" src={mygo} loading="lazy" />
         <img
           className="w-md mt-5 md:w-lg lg:w-lg lg:mt-0 lg:ml-5"
-          src="ave_mujica_bg.jpg"
+          src={ave_mujica}
+          loading="lazy"
         />
       </div>
 
@@ -99,6 +101,7 @@ const MyGO_Searcher = () => {
               <img
                 class="mt-5"
                 src="https://s3.ap-east-2.amazonaws.com/mygo-ave-mujica.ronald890119.com/MyGO/MyGO_1/%E8%AB%8B%E5%95%8F,%E8%A6%81%E4%B8%8D%E8%A6%81%E4%B8%80%E8%B5%B7%E7%8E%A9%E6%A8%82%E5%9C%98.png"
+                loading="lazy"
               />
               <p class="mt-4 font-semibold text-base leading-relaxed text-center italic text-gray-600">
                 So, would you like to form a band?
